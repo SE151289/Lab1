@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: wavy;
+  }
+  
+  li a:hover {
+    background-color: yellowgreen;
+  }
+
+img{
+    width: 500px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-gap: 10px;
+    grid-row: 30px;
+    padding: 10px;
+}
+.card{
+    background-color: whitesmoke;
+}
+.title{
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.year{
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.nation{
+    color: rgb(143, 143, 19);
+    text-align: center;
+}
